@@ -1,0 +1,32 @@
+{
+	"name": "sveltekit-template",
+	"version": "0.0.1",
+	"private": true,
+	"license": "UNLICENSED",
+	"devDependencies": {
+		"@sveltejs/adapter-static": "^2.0.3",
+		"@sveltejs/kit": "^1.25.0",
+		"@types/html-minifier": "^4.0.2",
+		"@typescript-eslint/eslint-plugin": "^6.7.0",
+		"@typescript-eslint/parser": "^6.7.0",
+		"eslint": "^8.49.0",
+		"eslint-plugin-svelte": "^2.33.1",
+		"html-minifier": "^4.0.0",
+		"mdsvex": "^0.11.0",
+		"sass": "^1.66.1",
+		"svelte": "^4.2.0",
+		"svelte-preprocess": "^5.0.4",
+		"tslib": "^2.6.2",
+		"typescript": "^5.2.2"
+	},
+	"type": "module",
+	"engines": {
+		"node": ">= 18.0.0"
+	},
+	"scripts": {
+		"start": "vite dev --port 80 --open",
+		"prepare": "svelte-kit sync",
+		"build": "vite build",
+		"serve": "vite preview --port 80 --open"
+	}
+}
